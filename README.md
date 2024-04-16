@@ -27,5 +27,5 @@ Any comment, suggestion or question is welcomed. This is the first version of th
 
 ## References
 
-WindSImFast is available at https://github.com/ECheynet/windSimFast
+WindSimFast is available at https://github.com/ECheynet/windSimFast
 
