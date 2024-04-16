@@ -1,2 +1,1 @@
-# windSimFaster
-WindSimFaster: WindSimFast, but faster
+# windSimFaster: WindSimFast, but faster
