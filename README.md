@@ -25,6 +25,8 @@ In both tutorials, only the along-wind velocity component is simulated. A simila
 
 Any comment, suggestion or question is welcomed. This is the first version of the repository. Som bugs may still be present.
 
+A python version has also be added
+
 ## References
 
 WindSimFast is available at https://github.com/ECheynet/windSimFast
