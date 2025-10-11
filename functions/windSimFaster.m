@@ -91,7 +91,7 @@ toc
 fftU(1,:)=0;
 % Get back to the time domain
 u_corr = real(ifft(fftU));
-% Add the mean wind speed
-u_corr = (u_corr'+ U(:))';
+% % Add the mean wind speed
+% u_corr = (u_corr'+ U(:))';
 
 end
