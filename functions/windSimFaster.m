@@ -128,8 +128,12 @@ fftU0 = fft(u);
 fftU = fftU0;
 for ii = 2:N/2
     cohU = modelFunCoh(K,f2s(ii));
-    C = chol(cohU,'lower');
-
+     try
+        C = chol(cohU,'lower');
+    catch exception
+        [L,D]=ldl(cohU,'lower'); % a LDL decomposition is applied this time
+        C = L*sqrt(D);
+    end
     dummy = C*exp(1i*angle(fftU0(ii,:)'));
     fftU(ii,:) = abs(fftU0(ii,:)).*exp(1i*angle(dummy.'));
     fftU(N-ii+2,:) = conj(fftU(ii,:));
