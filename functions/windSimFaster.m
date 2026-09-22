@@ -23,7 +23,7 @@ function u_corr=windSimFaster(Y,Z,U,Cy,Cz,f,u,Uhub,z_hub,varargin)
 % component-specific parameters. Call this function with the same Y and Z
 % grids for u, v, and w to apply the same IEC coherence to all components.
 %
-% Author: E. Cheynet - UiB. Revised 2026-09-22.
+% Author: E. Cheynet - UiB. Revised 2026-09-04.
 
 %% Parse and validate inputs
 p=inputParser;
